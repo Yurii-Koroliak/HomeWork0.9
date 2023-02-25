@@ -1,0 +1,41 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Tourney';
+    font-style: normal;
+    src: url('../fonts/tourney-v8-latin_latin-ext-600.woff2') format('woff2'),
+         url('../fonts/tourney-v8-latin_latin-ext-600.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Staatliches';
+    font-style: normal;
+    src: url('../fonts/staatliches-v11-latin_latin-ext-regular.woff2') format('woff2'),
+         url('../fonts/staatliches-v11-latin_latin-ext-regular.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Francois One';
+    font-style: normal;
+    src: url('../fonts/francois-one-v20-latin_latin-ext-regular.woff2') format('woff2'),
+         url('../fonts/francois-one-v20-latin_latin-ext-regular.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Farro';
+    font-style: normal;
+    src: url('../fonts/farro-v14-latin-300.woff2') format('woff2'),
+         url('../fonts/farro-v14-latin-300.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'PT Sans';
+    font-style: normal;
+    src: url('../fonts/pt-sans-v17-latin_latin-ext-regular.woff2') format('woff2'),
+         url('../fonts/pt-sans-v17-latin_latin-ext-regular.woff2') format('woff');
+}
+
+
