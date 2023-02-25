@@ -1,0 +1,115 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --f-tourney: Tourney;
+    --f-staatliches: Staatliches;
+    --f-francois-one: Francois One;
+    --f-farro: Farro;
+    --f-pt-sans: PT Sans
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    margin: 13px 120px 90px 120px;
+}
+
+.--language {
+    font-family: var(--f-tourney);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    color: black;
+}
+
+.--anchor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--f-staatliches);
+    color: black;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.--anchor > .--language{
+    padding-right: 50px;
+}
+
+.--p {
+    padding: 0px 10px;
+}
+
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+h2 {
+    font-family: var(--f-francois-one);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    padding-bottom: 40px;
+}
+
+p {
+    font-family: var(--f-pt-sans);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.--underl {
+    text-decoration: underline;
+}
+
+.caption {
+    display: flex;
+    flex-direction: row;
+}
+
+.caption>span {
+    padding-left: 10px;
+    font-family: var(--f-farro);
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.--section {
+    margin-bottom: 70px;
+}
+
+.--cursive {
+    font-style: italic;
+}
+
+.--ms {
+    font-weight: bold;
+}
+
+li {
+    font-family: var(--f-pt-sans);
+    font-size: 28px;
+    line-height: 48px;
+    list-style-type: none;
+}
+
+.--p-bottom {
+    padding-bottom: 40px;
+}
+
+.--bg-color {
+    background-color: rgb(167, 167, 167);
+}
