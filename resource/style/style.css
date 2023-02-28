@@ -15,7 +15,7 @@
 #header {
     position:sticky; 
     top: 0; 
-    z-index: 100;
+    z-index: 1;
 
 }
 
@@ -273,27 +273,6 @@ li {
     transform-style: preserve-3d;
 }
 
-.--grid-item1:hover .--flip-card {
-    transform: rotateX(180deg);
-}
-.--grid-item2:hover .--flip-card {
-    transform: rotateX(180deg);
-}
-.--grid-item3:hover .--flip-card {
-    transform: rotateX(180deg);
-}
-.--grid-item4:hover .--flip-card {
-    transform: rotateX(180deg);
-}
-.--grid-item5:hover .--flip-card {
-    transform: rotateX(180deg);
-}
-.--grid-item6:hover .--flip-card {
-    transform: rotateX(180deg);
-}
-.--grid-item7:hover .--flip-card {
-    transform: rotateX(180deg);
-}
-.--grid-item8:hover .--flip-card {
+.--grid > div:hover .--flip-card {
     transform: rotateX(180deg);
 }
